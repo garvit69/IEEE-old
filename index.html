@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE-MSB</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <!-- FONT-AWESOME ICONS -->
+    <!-- <script src="https://kit.fontawesome.com/88ecc5f85f.js"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" /> -->
+
+    <!-- Logo -->
+    <link rel="shortcut icon" href="assets/msb-logo.png" type="image/x-icon">
+    <link rel="icon" href="assets/msb-logo.png" type="image/x-icon">
+
+
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cPoppins:300,400,400i,600,600i,700,800,900" />
+
+    <!-- MASTER  STYLESHEET  -->
+    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
+
+
+</head>
+<style>
+    @media only screen and (max-width: 1170px) {
+        .follow {
+            margin-top: 10%;
+            padding: 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 870px) {
+        .follow {
+            margin-top: 15%;
+            padding: 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .follow {
+            margin-top: 5%;
+            padding: 25px;
+        }
+        .follow h1 {
+            font-size: 30px;
+        }
+        .follow p {
+            font-size: 17px;
+        }
+    }
+    
+    @media only screen and (max-height: 670px) {
+        .follow {
+            margin-top: 5%;
+            padding: 25px;
+        }
+        .follow h1 {
+            font-size: 20px;
+        }
+        .follow p {
+            font-size: 15px;
+        }
+    }
+</style>
+
+
+<body>
+
+    <!-- navbar
+    section 1 - photos of various events, past
+    section 2 - about IEEE-MSB
+    section 3 - events (aarambh, samvaad, srajan, sceecs)
+    section 4 - past sponsors
+    section 5 - footer(contact details and social media icons) -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark myNav">
+        <div class="container">
+            <a class="navbar-brand" style="color:#0371a4;font-weight:900" href="/">IEEE-MSB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item p-2 active">
+                        <a class="nav-link text-center" href="">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link text-center" href="./pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link text-center" href="./pages/event.html">Events</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link text-center" href="./pages/team.html">Team</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link text-center" href="./pages/alumni.html">Alumni</a>
+                    </li>
+                    <!-- <li class="nav-item p-2">
+      <a class="nav-link text-center" href="#">Sponsors</a>
+      </li> -->
+                    <!-- <li class="nav-item p-2">
+      <a class="nav-link text-center" href="#">Gallery</a>
+      </li> -->
+                    <li class="nav-item p-2">
+                        <a class="nav-link text-center" href="./pages/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container-fluid main">
+      <div id="inside">
+        <div  data-anijs="if: scroll,on: window, do: bounceIn animated, before: scrollReveal"  class="container h-100 d-flex justify-content-center align-items-center h1 py-5">IEEE MANIT STUDENT BRANCH</div>
+      </div>
+    </div> -->
+
+    <div id="intro">
+        <div class="video">
+            <video src="assets/video/intro-vid-2.mp4" style="min-height: 100vh;" autoplay muted></video>
+            <div class="cover"></div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-12">
+                <video src="assets/video/recruitment-copy (1).mp4" style="width: 100%; max-height: 100%;" autoplay muted loop></video>
+
+            </div>
+            <div class="col text-center follow">
+                <h1 style="color: white; padding-bottom: 20px;">We Are Recruiting Soon!</h1>
+                <p style="color: white; padding: 20px;"> The wait is finally over. IEEE MSB is recruiting new members to its family! With a new beginning and a new optimism IEEE MSB is all braced up to embark on a new journey and continue its saga of success with new members ! It is on a quest,
+                    searching for ingenious and brilliant minds that would help add glory to the sparkling crown of success that has been so trustingly bequeathed to us. So sophomores get ready!</p>
+            </div>
+        </div> -->
+        <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
+            <div class="">
+                <a href="#about" class="about-btn scrollto">Know more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog"> -->
+    <!-- Modal content-->
+    <!-- <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+    <!--         <h4 class="modal-title">Modal Header</h4> -->
+    <!-- </div>
+                <div class="modal-body text-center">
+                    <h1>Call for Papers</h1>
+                    <p>IEEE MSB is back with SCEECS 2022!
+                        SCEECS 2022 is inviting unpublished and original research papers from undergraduate,
+                        postgraduate and doctoral students in the following tracks on the given topics.
+                        The IEEE MANIT Student Branch will publish the proceedings, which will be stored in IEEE Xplore
+                        ®. This will give your name, research, and university an unrivalled online presence, allowing
+                        academics from all over the world to read and admire your work!</p>
+                    <a class="pre-order-btn" target="_blank" href="https://sceecs.ieeenitb.com/index.html">Register for SCEECS'22</a>
+                </div> -->
+    <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">View IEEE Site</button>
+        </div> -->
+    <!-- </div>
+
+        </div>
+    </div> -->
+    <!-- End Modal -->
+
+
+    <!-- SCEECS 2022 -->
+    <!-- <section id="home2">
+        <div class="hero-slider-active">
+            <div class="hero-area">
+                <div class="container">
+                    <div class="row clearfix">
+
+                        
+                        <div class="hero-left content-column col-lg-7 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <h1 class="animate3">SCEECS 2022</h1>
+                                <h2>
+                                    A mind-boggling concatenation of</h2>
+                                <div class="change_content"></div>
+
+                                <p class="animate1 margin-top-40" style="font-size: 25px;">19th – 20th February 2022,
+                                    Bhopal, India.</p>
+                                
+                                <div class="btn_wrapper animate1 margin-top-30">
+                                    <a href="https://sceecs.ieeenitb.com/index.html" target="_blank"
+                                        class="btn-style-two">Read More</a>
+                                    <a href="https://sceecs.ieeenitb.com/callforpaper.html" target="_blank"
+                                        class="btn-style-three"><span>Call
+                                            For Papers</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+    <!-- End SCEECS 2022 -->
+
+
+
+    <section id="about">
+        <div class="row m-auto my-2 p-0 py-5 px-5 container-fluid justify-content-around align-items-center " style="background-color: #f2aa4cff">
+            <div data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal" class="col-12">
+                <p class="text-center h1 animate__zoomInRight" style="color:#0371a4"><strong>About IEEE - MSB</strong>
+                </p>
+                <hr />
+                <p>
+                    IEEE is the world’s largest technical professional organization. It is dedicated to the advancement of technology for the betterment of humanity. Its core purpose is to foster the technological innovation and excellence.Believing in the same ideology
+                    and to carry this envisioned purpose, IEEE MANIT Student Branch ventures to be conducive and works assiduously towards achieving its goal.
+                </p>
+                <div class="col-12 col-md-4 mx-auto my-2 magicParent p-1 border border-dark">
+                    <img src="./assets/manit.JPG" alt="ieee team in front of manit admin building" class="w-100 magic" />
+                </div>
+                <p>
+                    IEEE MSB is the only renowned branch of central India, Madhya Pradesh region. Having received prestigious accolades, including, the Darrel Chong medal, twice, one being gold, IEEE MANIT Student Branch has proven its mettle and prowess to be one of the
+                    most hardworking branches in the Asia Pacific Region and has successfully secured a position amongst the other IEEE branches. IEEE MSB endeavours to promote awareness among students regarding the opportunities that exist in the field
+                    of computer science, electronics and electrical engineering
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <div id="new">
+
+            <div class="containers">
+
+
+                <div class="cards" data-anijs="if: scroll,on: window, do: zoomInLeft animated, before: scrollReveal">
+                    <div class="imgBx" data-text="AARAMBH">
+                        <img src="./assets/iconevent4.png">
+                    </div>
+                    <div class="contents">
+                        <div>
+                            <h3>AARAMBH</h3>
+                            <p>It is a social initiative, organised by IEEE MSB, that focuses on encompassing a large number of students across numerous under -resourced schools.</p>
+                            <a href="./pages/event.html#aarambh">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards" data-anijs="if: scroll,on: window, do: zoomInRight animated, before: scrollReveal">
+                    <div class="imgBx" data-text="SAMWAD">
+                        <img src="./assets/iconevent4.png">
+                    </div>
+                    <div class="contents">
+                        <div>
+                            <h3>SAMWAD</h3>
+                            <p>IEEE MSB every year orchestrates an event “SAMWAD“ under WIE, to realize the indomitable spirit of women and to praise and promote their significant contribution.</p>
+                            <a href="./pages/event.html#samwad">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" data-anijs="if: scroll,on: window, do: zoomInLeft animated, before: scrollReveal">
+                    <div class="imgBx" data-text="SCEECS">
+                        <img src="./assets/iconevent4.png">
+                    </div>
+                    <div class="contents">
+                        <div>
+                            <h3>SCEECS</h3>
+                            <p> This conference helps to publish research papers on IEEE Xplore, providing the people with a plethora from which their research could be well accessed by anyone in the world.
+                            </p>
+                            <a href="./pages/event.html#sceecs">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" data-anijs="if: scroll,on: window, do: zoomInRight animated, before: scrollReveal">
+                    <div class="imgBx" data-text="SRAJAN">
+                        <img src="./assets/iconevent4.png">
+                    </div>
+                    <div class="contents">
+                        <div>
+                            <h3>SRAJAN</h3>
+                            <p> SRAJAN is a biennial case study event organized by IEEE MSB.With the tagline - Ideate | | Innovate | | Create .</p>
+                            <a href="./pages/event.html#srajan">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- <div  data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal" class="container-fluid pt-3  ">
+      <p class="text-center h3"><strong>Our Events</strong></p>
+      <hr />
+      <div data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" class="px-2 row justify-content-around align-items-center py-5 "  style="background-color: rgb(131, 128, 128);">
+        <div class="col-12 col-md-4 magicParent p-1 border border-dark">
+          <img
+            src="./assets/aarambh/20.jpg"
+            alt="aarambh photograph"
+            class="w-100 magic"
+          />
+        </div>
+        <div class="col-12 col-md-6" >
+          <p class="text-center h3"><strong>AARAMBH</strong></p>
+          <hr />
+
+          <p>
+            It is a social initiative, organised by IEEE MSB, that focuses on
+            encompassing a large number of students across numerous under
+            -resourced schools and acquainting them with the tantalizing
+            mysteries of the world of science. The sole purpose of this event is
+            to instigate an inquisitiveness in the young minds and to introduce
+            them, the wonders that science and technology can achieve.
+          </p>
+        </div>
+      </div>
+      <div data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"
+        class="px-2 row justify-content-around align-items-center flex-row-reverse py-5" style="background-color: rgb(200,200,200);"
+      >
+        <div class="col-12 col-md-4 magicParent p-1 border border-dark">
+          <img
+            src="./assets/samwaad.JPG"
+            alt="sanwad photograph"
+            class="w-100 magic"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="text-center h3"><strong>SAMWAD</strong></p>
+          <hr />
+          <p>IEEE MSB every year orchestrates an event  “SAMWAD“ under WIE, to realize the indomitable spirit of women and to praise and promote their significant contribution. </p>
+        </div>
+      </div>
+      <div data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" class="px-2 row justify-content-around align-items-center py-5 " style="background-color: rgb(131, 128, 128);" >
+        <div class="col-12 col-md-4 magicParent p-1 border border-dark">
+          <img
+            src="./assets/sceecs/1.jpg"
+            alt="sceecs photograph"
+            class="w-100 magic"
+          />
+        </div>
+        <div class="col-12 col-md-6 " >
+          <p class="text-center h3"><strong>SCEECS</strong></p>
+          <hr />
+          <p>
+            This conference helps  to  publish research papers on IEEE Xplore (congregation of research papers published by scholars from all around the world over several years), providing  the people  with a plethora from which their research could be well accessed by anyone in the world. IEEE Xlpore acts as an user friendly interface which provides information about any relevant topic  at just one finger's click. The  papers published through this conference are conveniently available and accessible.  Had the papers not been published the world could have been deprived of important research. Felicitating the work , publishing it and uploading it on the world wide web, making  it more accessible and portable to anyone in the world is what the conference is about.
+          </p>
+          <p>
+
+        </div>
+      </div>
+      <div data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"
+        class="px-2 row justify-content-around align-items-center flex-row-reverse py-5" style="background-color: rgb(200,200,200);"
+      >
+        <div class="col-12 col-md-4 magicParent p-1 border border-dark">
+          <img
+            src="./assets/srajan/8.jpg"
+            alt="srajan photograph"
+            class="w-100 magic"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="text-center h3"><strong>SRAJAN</strong></p>
+          <hr />
+          <p>
+            SRAJAN is a biennial case study event organized by IEEE MSB.With the tagline - Ideate | | Innovate | | Create , the principal directive of SRAJAN, is to bring to light the  technological innovations that have the potential to  resolve the  simple  quotidian problemsand to cherish these ideas. The event lures young trailblazers and gives them a National Level platform to their innovations.
+          </p>
+
+        </div>
+      </div>
+    </div> -->
+    <div class="container-fluid py-3 sponsor " id=supporters>
+        <div class="container">
+            <p class="text-center h1" style="color:#0371a4"><strong>Our Sponsors</strong></p>
+            <hr />
+
+            <div class="row no-gutters supporters-wrap  clearfix">
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInLeft animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/IEEE-R10.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInDown animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/IEEE_spectrum_logo.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInDown animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/ieee.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInRight animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/ieee_tv.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInLeft animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/IEEEXplore.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInUp animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/job-site.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInUp animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/standards.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6" data-anijs="if: scroll,on: window, do: zoomInRight animated, before: scrollReveal">
+                    <div class="supporter-logo">
+                        <img src="./assets/sponsors/technav_banner.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <section id="footer p-5">
+
+        <!-- Site footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img style="width:200px" src="./assets/ieee-logo-white.png" alt="" />
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 ">
+                        <h6>Events</h6>
+                        <ul class="footer-links">
+                            <li><a href="./pages/event.html#aarambh">AARAMBH</a></li>
+                            <li><a href="./pages/event.html#samwad">SAMWAD</a></li>
+                            <li><a href="./pages/event.html#srajan">SRAJAN</a></li>
+                            <li><a href="./pages/event.html#sceecs">SCEECS</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="./pages/about.html">About Us</a></li>
+                            <li><a href="./pages/alumni.html">Alumni</a></li>
+                            <li><a href="./pages/team.html">Our Team</a></li>
+                            <li><a href="./pages/event.html">Our Events</a></li>
+                            <li><a href="./pages/contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                            <a href="#">IEEE MSB</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="https://www.facebook.com/IEEEMANIT"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="https://www.instagram.com/ieee_manit/"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                            <li><a class="dribbble" href="mailto:ritwikmishra@ieee.org"><i
+                                        class="fas fa-envelope-square"></i></a>
+                            </li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+
+
+
+    <!-- Include to use $addClass, $toggleClass or $removeClass -->
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+    <!-- JAVASCRIPT FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/counter.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>

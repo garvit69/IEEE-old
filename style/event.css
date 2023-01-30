@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Raleway", sans-serif; */
+  color: #262626;
+
+  font-weight: 700;
+}
+
+p {
+  /* font-family: "Raleway", sans-serif; */
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+/* #text {
+  padding: 80px;
+  margin-bottom: 5%;
+}
+
+#textinside {
+  background-image: linear-gradient(#e1f5fe, #29b6f6);
+} */
+
+#start {
+  height: 750px;
+  width: 100%;
+  background-image: url("../assets/BeFunky-collage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#bgevent {
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#events {
+  padding-top: 12%;
+  padding-left: 21%;
+  padding-right: 21%;
+  color: white;
+  font-size: 200px;
+
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+#events h3{
+  
+}
+
+@media (max-width: 575.98px) {
+  #events {
+    font-size: 58px;
+    padding-top: 60%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  /* #bgevent {
+    height: 450px;
+  }
+  #start {
+    height: 450px;
+  } */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #events {
+    font-size: 100px;
+    padding-top: 20%;
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  #bgevent {
+    height: 500px;
+  }
+  #start {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 996px) {
+  #events {
+    font-size: 150px;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  #bgevent {
+    height: 600px;
+  }
+  #start {
+    height: 600px;
+  }
+}
+
+.para {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 18px;
+  color: black;
+}
+
+/* .heading {
+  font-family: "Times New Roman", Times, serif;
+} */
+
+#aarambh{
+  background-color: #1a1a1a;
+  color:#ffffff;
+  background-image: url(../assets/ab3.png);
+  background-size: 20%;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+ #srajan{
+   background-color: #1a1a1a;
+   color:#ffffff;
+   background-image: url(../assets/ab3.png);
+   background-size: 20%;
+   background-attachment: fixed;
+   padding: 0;
+   margin: 0;
+ }
+
+#line {
+  width: 60%;
+  text-align: left;
+
+  font-weight: 900;
+  border-width: 8px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.row img {
+  width: 400px;
+}
+
+body {
+  font-size: 14px;
+  background: white;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #141414;
+  font-weight: 600;
+  font-size: 14px;
+}
+.row img {
+  height: auto;
+  max-width: 100%;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
+/* #eventss {
+  margin-top: 40px;
+} */

@@ -1,0 +1,42 @@
+#start {
+  height: 750px;
+  width: 100%;
+  background-image: url(../assets/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#inside1 {
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#about {
+  padding-top: 12%;
+  padding-left: 21%;
+  padding-right: 21%;
+  color: white;
+  font-size: 200px;
+
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+
+.about_IEEE,.about_IEEE_bombay,.about_manit{
+  background-color: #1a1a1a;
+  color:#ffffff;
+  background-image: url(../assets/ab3.png);
+  background-size: 20%;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+@media (max-width: 575.98px) {
+  #about {
+    font-size: 58px;
+    padding-top: 60%;
+  }
+}
